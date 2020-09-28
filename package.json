@@ -1,6 +1,6 @@
 {
   "name": "coc-dev-tools",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Helper tool for coc.nvim development",
   "author": "Josa Gesell <josa@gesell.me>",
   "license": "MIT",
