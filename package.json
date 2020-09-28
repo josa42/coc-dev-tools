@@ -1,0 +1,27 @@
+{
+  "name": "coc-dev-tools",
+  "version": "0.0.0",
+  "description": "Helper tool for coc.nvim development",
+  "author": "Josa Gesell <josa@gesell.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josa42/coc-dev-tools.git"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "bin": {
+    "coc-dev": "./cli/index.js"
+  },
+  "dependencies": {
+    "eslint": "^7.10.0",
+    "prettier": "^2.1.2",
+    "yargs": "^16.0.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4"
+  }
+}
